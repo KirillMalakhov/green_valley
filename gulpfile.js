@@ -9,10 +9,14 @@ const autoprefixer = require('autoprefixer');
 const mqpacker = require('css-mqpacker');
 const cleanss = require('gulp-cleancss');
 const sourcemaps = require('gulp-sourcemaps');
+const fileinclude = require('gulp-file-include');
+const replace = require("replace");
+
 
 // Компиляция LESS
 gulp.task('less', function () {
-    return gulp.src('./less/style.less')
+    console.log('---------- Компиляция LESS');
+    return gulp.src('./src/less/style.less')
         .pipe(sourcemaps.init())
         .pipe(less())
         .pipe(postcss([
@@ -22,5 +26,16 @@ gulp.task('less', function () {
         .pipe(cleanss())
         .pipe(rename('style.min.css'))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('./css'));
+        .pipe(gulp.dest('./build/css'));
+});
+
+
+gulp.task('html', function() {
+    console.log('---------- Компиляция HTML');
+    gulp.src(['./src/*.html'])
+        .pipe(fileinclude({
+            prefix: '@@',
+            basepath: '@file'
+        }))
+        .pipe(gulp.dest('./build'));
 });

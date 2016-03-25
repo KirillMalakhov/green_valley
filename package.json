@@ -17,6 +17,8 @@
     "gulp-less": "^3.0.5",
     "gulp-postcss": "^6.1.0",
     "gulp-rename": "^1.2.2",
+    "gulp-file-include": "^0.13.7",
+    "gulp-replace": "^0.5.4",
     "gulp-sourcemaps": "^1.6.0"
   }
 }
