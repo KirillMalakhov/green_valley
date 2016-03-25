@@ -1,61 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <title>Document</title>
-</head>
+@@include('blocks/head.html')
 <body>
-  <header class="page-header">
-    <div class="page-header__inner">
-      <a class="site-logo" href="/"><img alt="" src=""></a>
-      <nav class="main-nav">
-        <div class="main-nav__menu-toogler"></div>
-        <ul class="main-nav__list">
-          <li class="main-nav__item main-nav__item--active">
-            <a class="main-nav__link" href="">НОМЕРА</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="">КОТТЕДЖ</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="">РЕСТОРАН</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="">ОТДЫХ</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="">КОНТАКТЫ</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="short-contacts">
-        <a class="short-contacts__phone" href="">+7 812 777-55-88</a> <span class=
-        "short-contacts__address">г. Санкт-Петербург, Приморское ш.600</span>
-      </div>
-      <div class="page-header__btn">
-        <a class="btn btn--icon-calendar" href="">ЗАБРОНИРОВАТЬ</a>
-      </div>
-    </div>
-  </header>
+  @@include('blocks/page-header/page-header.html')
   <main>
-
+    @@include('blocks/single-room-item/single_room_item.html')
+    @@include('blocks/single-room-options/single_room_options.html')
   </main>
-  <footer class="page-footer">
-   <div class="page-footer__inner">
-    <div class="page-footer__adress">
-      <p>г. Санкт-Петербург приморское ш.600</p>
-    </div>
-    <div class="page-footer__links"> //лого
-      <img src="" alt="" class="site-logo"> //переделать, линки отдельно в список, назвать link
-      <a href="" class="vk"> </a>
-      <a href="" class="instagramm"> </a>
-      <a href="" class="facebook"> </a>
-    </div>
-    <div class="page-footer__contacts">
-      <span>+7 812 777-55-88</span>
-      <span>info@greenvalley.ru </span>
-    </div>
-    </div>
-  </footer>
+@@include('blocks/page-footer/page-footer.html')
 </body>
 </html>
