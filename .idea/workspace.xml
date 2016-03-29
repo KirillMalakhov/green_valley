@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a28dadfd-6ae6-49b4-b8f8-40817165d7bd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/css/style.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/npm-debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/less/styles.less/page-header.less" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/room-list.html" afterPath="$PROJECT_DIR$/build/room-list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/single_room.html" afterPath="$PROJECT_DIR$/build/single_room.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/blocks/head.html" afterPath="$PROJECT_DIR$/src/blocks/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/blocks/page-header/page-header.html" afterPath="$PROJECT_DIR$/src/blocks/page-header/page-header.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/blocks/page-header/page-header.less" afterPath="$PROJECT_DIR$/src/blocks/page-header/page-header.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/less/style.less" afterPath="$PROJECT_DIR$/src/less/style.less" />
     </list>
     <ignored path="green_valley.iws" />
     <ignored path=".idea/workspace.xml" />
