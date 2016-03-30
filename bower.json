@@ -1,0 +1,18 @@
+{
+  "name": "green_valley",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Kirill74 <vtnhjy2832@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/KirillMalakhov/green_valley",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
