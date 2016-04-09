@@ -3,182 +3,232 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/style.min.css">
+  
+  <script>
+  // Маркер работающего javascript
+  document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+</script>
+
 </head>
 <body>
   <header class="page-header">
-    <div class="page-header container">
-     <div class="row">
-      <a class="site-logo col-xs-2" href="/"><img alt="" src=""></a>
-      <nav class="main-nav col-xs-6">
-        <div class="main-nav__menu-toogler"></div>
-        <ul class="main-nav__list list-inline">
-          <li class="main-nav__item main-nav__item--active inline-item">
-            <a class="main-nav__link" href="">НОМЕРА</a>
-          </li>
-          <li class="main-nav__item inline-item">
-            <a class="main-nav__link" href="">КОТТЕДЖ</a>
-          </li>
-          <li class="main-nav__item inline-item">
-            <a class="main-nav__link" href="">РЕСТОРАН</a>
-          </li>
-          <li class="main-nav__item inline-item">
-            <a class="main-nav__link" href="">ОТДЫХ</a>
-          </li>
-          <li class="main-nav__item inline-item">
-            <a class="main-nav__link" href="">КОНТАКТЫ</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="short-contacts col-xs-2">
-        <a class="short-contacts__phone" href="">+7 812 777-55-88</a> <p class=
-        "short-contacts__address">Привет г. Санкт-Петербург, Приморское ш.600</p>
+      <div class="page-header container">
+       <div class="row">
+        <a class="site-logo col-xs-2" href="/"><img alt="" src="../../img/Logo.png"></a>
+        <nav class="main-nav col-xs-5">
+          <div class="main-nav__menu-toogler"></div>
+          <ul class="main-nav__list list-inline">
+            <li class="main-nav__item main-nav__item--active inline-item">
+              <a class="main-nav__link" href="">НОМЕРА</a>
+            </li>
+            <li class="main-nav__item inline-item">
+              <a class="main-nav__link" href="">КОТТЕДЖ</a>
+            </li>
+            <li class="main-nav__item inline-item">
+              <a class="main-nav__link" href="">РЕСТОРАН</a>
+            </li>
+            <li class="main-nav__item inline-item">
+              <a class="main-nav__link" href="">ОТДЫХ</a>
+            </li>
+            <li class="main-nav__item inline-item">
+              <a class="main-nav__link" href="">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="short-contacts col-xs-3">
+          <a class="short-contacts__phone" href="">+7 812 777-55-88</a> <br> <span class=
+          "short-contacts__address">г. Санкт-Петербург, Приморское ш.600</span>
+        </div>
+        <div class="page-header__btn col-xs-2">
+          <a class="btn btn--icon-calendar" href="">ЗАБРОНИРОВАТЬ</a>
+        </div>
       </div>
-      <div class="page-header__btn col-xs-2">
-        <a class="btn btn--icon-calendar" href="">ЗАБРОНИРОВАТЬ</a>
-      </div>
-    </div>
-   </div>
-  </header>
+     </div>
+    </header>
   <main>
   <div class="promo-slider col-xs-12">
-    <div class="img-slider">
-      <div class="img-slider__item" style="">
-        <div class="img-slider__inner">
-          <b class="img-slider__title">Семейный отдых на берегу Финского залива</b>
-          <p class="img-slider__text">Green Valley - это современная база отдыха в курортном районе для здорового отдыха всей семьёй.</p>
+      <div class="img-slider">
+     <div class="owl-carousel">
+      <div class="item">
+        <div class="img-slider__item" style="">
+          <div class="img-slider__inner">
+        
+            <b class="img-slider__title"><span class="promo-span-title">Семейный</span><span class="promo-span-title"> отдых</span><span class="promo-span-title"> на</span><span class="promo-span-title"> берегу</span><span class="promo-span-title"> Финского</span><span class="promo-span-title"> залива</span></b>
+            <p class="img-slider__text"><span class="promo-span">Green</span><span class="promo-span"> Valley</span><span class="promo-span"> - </span><span class="promo-span">это</span><span class="promo-span"> современная</span><span class="promo-span"> база</span><span class="promo-span"> отдыха</span><span class="promo-span"> в </span><span class="promo-span">курортном</span><span class="promo-span"> районе</span><span class="promo-span"> для</span><span class="promo-span"> здорового</span><span class="promo-span"> отдыха</span><span class="promo-span"> всей </span><span class="promo-span">семьёй.</span></p>
+          </div>
         </div>
       </div>
-      <div class="img-slider__item">
-        <div class="img-slider__inner">
-          <b class="img-slider__title"></b>
-          <p class="img-slider__text"></p>
+    <div class="item">
+        <div class="img-slider__item" style="">
+          <div class="img-slider__inner">
+        
+            <b class="img-slider__title"><span class="promo-span-title">Корпоративный</span><span class="promo-span-title"> отдых</span><span class="promo-span-title"> на</span><span class="promo-span-title"> берегу</span><span class="promo-span-title"> Финского</span><span class="promo-span-title"> залива</span></b>
+            <p class="img-slider__text"><span class="promo-span">Green</span><span class="promo-span"> Valley</span><span class="promo-span"> - </span><span class="promo-span">это</span><span class="promo-span"> современная</span><span class="promo-span"> база</span><span class="promo-span"> отдыха</span><span class="promo-span"> в </span><span class="promo-span">курортном</span><span class="promo-span"> районе</span><span class="promo-span"> для</span><span class="promo-span"> здорового</span><span class="promo-span"> отдыха</span><span class="promo-span"> всей </span><span class="promo-span">семьёй.</span></p>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="promo-slider-tabs col-xs-12 text-center">
-    <div class="container">
-      <div class="row">
-    <ul class="promo-slider__tabs list-inline">
-      <li class="promo-slider__tabs-item promo-slider__tabs-item--active inline-item"><a href="">СЕМЕЙНЫЙ ОТДЫХ</a></li>
-      <li class="promo-slider__tabs-item inline-item"><a href="">КОРПОРАТИВНЫЙ</a></li>
-    </ul>
-    
-    <div class="service-slider">
-      <section class="service-slider__item">
-        <h1 class="service-slider__title">Здоровый отдых</h1>
-        <p class="service-slider__descr">Плавайте в бассейне, играйте в волейбол, футбол и другие игры. Устройте семейный пикник с шашлыками или снимите напряжение в бане или спа. Почувствуйте отдых!</p>
-        <ul class="service-slider__list list-inline">
-          <li class="service-slider__item inline-item" style="">БАССЕЙН</li>
-          <li class="service-slider__item inline-item" style="">СПОРТИВНАЯ ПЛОЩАДКА</li>
-          <li class="service-slider__item inline-item" style="">БИЛЬЯРД</li>
-          <li class="service-slider__item inline-item" style="">СПА</li>
-          <li class="service-slider__item inline-item" style="">БАНИ</li>
-          <li class="service-slider__item inline-item" style="">АНИМАЦИЯ</li>
-        </ul>
-      </section>
-      <section class="service-slider__item">
-        <h1 class="service-slider__title"></h1>
-        <p class="service-slider__descr"></p>
-<!--
-        <ul class="service-slider__list">
-          <li class="service-slider__item" style=""></li>
-        </ul>
--->
-      </section>
-      </div>
-    </div>
-    </div>
-    </div>
-</div>
-     <div class="gallery">
-     <!-- МЕСТО ДЛЯ СОВИНОЙ КАРУЕЛИ -->
-   </div> 
-  <div class="feedbacks col-xs-12 text-center">
-       <span class="feedbacks__title">Отзывы</span>
-       <div class="container">
-         <div class="row">  
-       <div class="feedbacks-item col-xs-4 col-xs-offset-2">
-         <div class="feedbacks-item__inner">
-           <span class="feedbacks-item__name">Екатерина В.</span>
-           <p class="feedbacks-item__text">Наша семья счастлива, что открыла для себя Green Valley. Замечательный, комфортный отдых. Хорошее место, приветливый персонал, вкусная еда. Стали постоянными гостями!</p>
-           <p class="feedbacks-item__date">Дата отдыха: 01.06.2015 - 08.06.2015</p>
-         </div>
-       </div>
-       <div class="feedbacks-item col-xs-4 col-xs-offset-1">
-         <div class="feedbacks-item__inner">
-           <span class="feedbacks-item__name">Екатерина В.</span>
-           <p class="feedbacks-item__text">Спасибо всем без исключения сотрудникам отеля за прекрасные дни, проведенные у вас! Наслаждались тишиной, отдохнули прекрасно. Понравилось всё: тёплый прием персоналом.</p>
-           <p class="feedbacks-item__date">Дата отдыха: 15.05.2015 - 20.05.2015</p>
-         </div>
-       </div>
-        </div>
-       </div>
-       <a href="" class="feedbacks__btn">ВСЕ ОТЗЫВЫ</a>
-     </div>
-  
-   <div class="special-offer col-xs-12 text-center">
-
-     <div class="container">
-    <div class="row">
-    <div class="special-offer-item">
-      <div class="special-offer-item__inner">
-        <b class="special-offer-item__title">СКИДКИ В МАЕ</b>
-        <p class="special-offer-item__text">Забронируйте номер или коттедж любой категории до 31 июня и получите скидку 10% !</p>
-      </div>
-    </div>
-    <div class="special-offer-item">
-      <div class="special-offer-item__inner">
-        <b class="special-offer-item__title">СКИДКИ В МАЕ</b>
-        <p class="special-offer-item__text">Забронируйте номер или коттедж любой категории до 31 июня и получите скидку 10% !</p>
-      </div>
-    </div>
   </div>      
-    </div>
-  </div>
-  <div class="container">
-  <div class="row">
-  <div class="geography">
-    <div class="geography-map col-xs-12">
-      <!-- Место для карты -->
-    </div>
-    <div class="geography-transport">
-      <div class="geography-transport__item col-xs-4 col-xs-offset-2">
-        <b class="geography-transport__bus">АВТОБУСЫ</b>
-        <ul class="geography-transport__bus-list">
-          <li><strong>№211</strong> от станции метро "Черная речка" до остановки "Санаторий Репино"</li>
-          <li><strong>№305К</strong> от станции метро "Старая деревня"</li>
-          <li><strong>№680К</strong> от станции метро "Проспект Просвещения"</li>
-          <li><strong>№400К</strong> от станции метро "Площадь Ленина"</li>
-        </ul>
+  </div> 
       </div>
-      <div class="geography-transport__item col-xs-4">
-        <p>Электропоезд Выборгского направления от Финляндского вокзала Санкт-Петербурга до платформы "Репино"</p>
-      </div>
-    </div>
-  </div>
-  </div>
-</div>
-     <div class="offer-choice text-center">
-   <div class="container">
-     <div class="row">   
-     <span class="col-xs-12">Где вы хотите отдохнуть?</span>
-     <div class="offer-choice__item col-xs-4 col-xs-offset-2">
-       <a href="">
-         <span class="offer-choice__title">В отеле</span>
-         ОТ <span class="offer-choice__price">4000</span> РУБ./СУТКИ
-       </a>
-     </div>
-     <div class="offer-choice__item col-xs-4 col-xs-offset-0.5">
-       <a href="">
-         <span class="offer-choice__title">В коттедже</span>
-         ОТ <span class="offer-choice__price">6800</span> РУБ./СУТКИ
-       </a>
-     </div>
-   </div>
-  </div>
-</div>
 
+
+
+  <!-- 
+      <div class="tabs">
+    <ul class="tabs-list">
+      <li class="tabs-link  active"><a href="#tab_01">Таб 1</a></li>
+      <li class="tabs-link"><a href="#tab_02">Таб 2</a></li>
+    </ul>
+    <div class="tabs-content">
+      <div class="tab-item  active" id="tab_01">
+        <h2>Заголовок таба 1</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi iste totam, in, fugiat provident cum quod accusantium eum vitae. Voluptatibus voluptate officia recusandae modi minima nam eum nisi, numquam error.</p>
+      </div>
+      <div class="tab-item" id="tab_02">
+        <h2>Заголовок таба 2</h2><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi iste totam, in, fugiat provident cum quod accusantium eum vitae. Voluptatibus voluptate officia recusandae modi minima nam eum nisi, numquam error.</p>
+      </div>
+    </div>
+  </div>
+   -->
+
+
+
+
+      <div class="promo-slider-tabs col-xs-12 text-center">
+      <div class="container">
+        <div class="row">
+      <ul class="promo-slider__tabs list-inline">
+        <li class="promo-slider__tabs-item promo-slider__tabs-item--active inline-item"><a href="#tab_01">СЕМЕЙНЫЙ ОТДЫХ</a></li>
+        <li class="promo-slider__tabs-item inline-item"><a href="#tab_02">КОРПОРАТИВНЫЙ</a></li>
+      </ul>
+    
+      <div class="promo-slider">
+        <section class="promo-slider__tabs-item promo-slider__tabs-item--active id="tab_01"">
+          <h1 class="promo-slider__title">Здоровый отдых</h1>
+          <p class="promo-slider__descr">Плавайте в бассейне, играйте в волейбол, футбол и другие игры. Устройте семейный пикник с шашлыками или снимите напряжение в бане или спа. Почувствуйте отдых!</p>
+          <ul class="service-slider__list list-inline">
+            <li class="service-slider__item inline-item" style="">БАССЕЙН</li>
+            <li class="service-slider__item inline-item" style="">СПОРТИВНАЯ ПЛОЩАДКА</li>
+            <li class="service-slider__item inline-item" style="">БИЛЬЯРД</li>
+            <li class="service-slider__item inline-item" style="">СПА</li>
+            <li class="service-slider__item inline-item" style="">БАНИ</li>
+            <li class="service-slider__item inline-item" style="">АНИМАЦИЯ</li>
+          </ul>
+        </section>
+        <section class="promo-slider__tabs-item id="tab_02"">
+          <h1 class="promo-slider__title">Не самый здоровый корпоративный отдых</h1>
+          <p class="promo-slider__descr">Плавайте в бассейне, играйте в волейбол, футбол и другие игры. Устройте семейный пикник с шашлыками или снимите напряжение в бане или спа. Почувствуйте отдых!</p>
+          <ul class="service-slider__list list-inline">
+            <li class="service-slider__item inline-item" style="">БАССЕЙН</li>
+            <li class="service-slider__item inline-item" style="">СПОРТИВНАЯ ПЛОЩАДКА</li>
+            <li class="service-slider__item inline-item" style="">БИЛЬЯРД</li>
+            <li class="service-slider__item inline-item" style="">СПА</li>
+            <li class="service-slider__item inline-item" style="">БАНИ</li>
+            <li class="service-slider__item inline-item" style="">АНИМАЦИЯ</li>
+          </ul>
+        </section>
+        <section class="service-slider__item">
+          <h1 class="service-slider__title"></h1>
+          <p class="service-slider__descr"></p>
+  <!--
+          <ul class="service-slider__list">
+            <li class="service-slider__item" style=""></li>
+          </ul>
+  -->
+        </section>
+        </div>
+      </div>
+      </div>
+      </div>
+  </div>
+     <div class="gallery">
+       <!-- МЕСТО ДЛЯ СОВИНОЙ КАРУЕЛИ -->
+     </div> 
+  <div class="feedbacks col-xs-12 text-center">
+         <span class="feedbacks__title">Отзывы</span>
+         <div class="container">
+           <div class="row">  
+         <div class="feedbacks-item col-xs-4 col-xs-offset-2">
+           <div class="feedbacks-item__inner">
+             <span class="feedbacks-item__name">Екатерина В.</span>
+             <p class="feedbacks-item__text">Наша семья счастлива, что открыла для себя Green Valley. Замечательный, комфортный отдых. Хорошее место, приветливый персонал, вкусная еда. Стали постоянными гостями!</p>
+             <p class="feedbacks-item__date">Дата отдыха: 01.06.2015 - 08.06.2015</p>
+           </div>
+         </div>
+         <div class="feedbacks-item col-xs-4 col-xs-offset-1">
+           <div class="feedbacks-item__inner">
+             <span class="feedbacks-item__name">Екатерина В.</span>
+             <p class="feedbacks-item__text">Спасибо всем без исключения сотрудникам отеля за прекрасные дни, проведенные у вас! Наслаждались тишиной, отдохнули прекрасно. Понравилось всё: тёплый прием персоналом.</p>
+             <p class="feedbacks-item__date">Дата отдыха: 15.05.2015 - 20.05.2015</p>
+           </div>
+         </div>
+          </div>
+         </div>
+         <a href="" class="feedbacks__btn">ВСЕ ОТЗЫВЫ</a>
+       </div>
+  
+     <div class="special-offer col-xs-12 text-center">
+
+       <div class="container">
+      <div class="row">
+      <div class="special-offer-item">
+        <div class="special-offer-item__inner">
+          <b class="special-offer-item__title">СКИДКИ В МАЕ</b>
+          <p class="special-offer-item__text">Забронируйте номер или коттедж любой категории до 31 июня и получите скидку 10% !</p>
+        </div>
+      </div>
+      <div class="special-offer-item">
+        <div class="special-offer-item__inner">
+          <b class="special-offer-item__title">СКИДКИ В МАЕ</b>
+          <p class="special-offer-item__text">Забронируйте номер или коттедж любой категории до 31 июня и получите скидку 10% !</p>
+        </div>
+      </div>
+    </div>      
+      </div>
+    </div>
+  <div class="container">
+    <div class="row">
+    <div class="geography">
+      <div class="geography-map col-xs-12">
+        <!-- Место для карты -->
+      </div>
+      <div class="geography-transport">
+        <div class="geography-transport__item col-xs-4 col-xs-offset-2">
+          <b class="geography-transport__bus">АВТОБУСЫ</b>
+          <ul class="geography-transport__bus-list">
+            <li><strong>№211</strong> от станции метро "Черная речка" до остановки "Санаторий Репино"</li>
+            <li><strong>№305К</strong> от станции метро "Старая деревня"</li>
+            <li><strong>№680К</strong> от станции метро "Проспект Просвещения"</li>
+            <li><strong>№400К</strong> от станции метро "Площадь Ленина"</li>
+          </ul>
+        </div>
+        <div class="geography-transport__item col-xs-4">
+          <p>Электропоезд Выборгского направления от Финляндского вокзала Санкт-Петербурга до платформы "Репино"</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+     <div class="offer-choice text-center">
+     <div class="container">
+       <div class="row">   
+       <span class="col-xs-12">Где вы хотите отдохнуть?</span>
+       <div class="offer-choice__item col-xs-4 col-xs-offset-2">
+         <a href="">
+           <span class="offer-choice__title">В отеле</span>
+           ОТ <span class="offer-choice__price">4000</span> РУБ./СУТКИ
+         </a>
+       </div>
+       <div class="offer-choice__item col-xs-4 col-xs-offset-0.5">
+         <a href="">
+           <span class="offer-choice__title">В коттедже</span>
+           ОТ <span class="offer-choice__price">6800</span> РУБ./СУТКИ
+         </a>
+       </div>
+     </div>
+    </div>
+  </div>
   </main>
   <footer class="page-footer">
   <div class="container">
@@ -199,5 +249,9 @@
     </div>
   </div>
   </footer>
+ <script src="../js/jquery.min.js"></script>
+ <script src="../js/script.min.js"></script>
+
+
 </body>
 </html>

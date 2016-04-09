@@ -3,98 +3,105 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
-  <link rel="stylesheet" href="css/style.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/style.min.css">
+  
+  <script>
+  // Маркер работающего javascript
+  document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+</script>
+
 </head>
 <body>
   <header class="page-header">
-    <div class="page-header container">
-     <div class="row">
-      <a class="site-logo col-xs-2" href="/"><img alt="" src=""></a>
-      <nav class="main-nav col-xs-6">
-        <div class="main-nav__menu-toogler"></div>
-        <ul class="main-nav__list list-inline">
-          <li class="main-nav__item main-nav__item--active inline-item">
-            <a class="main-nav__link" href="">НОМЕРА</a>
-          </li>
-          <li class="main-nav__item inline-item">
-            <a class="main-nav__link" href="">КОТТЕДЖ</a>
-          </li>
-          <li class="main-nav__item inline-item">
-            <a class="main-nav__link" href="">РЕСТОРАН</a>
-          </li>
-          <li class="main-nav__item inline-item">
-            <a class="main-nav__link" href="">ОТДЫХ</a>
-          </li>
-          <li class="main-nav__item inline-item">
-            <a class="main-nav__link" href="">КОНТАКТЫ</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="short-contacts col-xs-2">
-        <a class="short-contacts__phone" href="">+7 812 777-55-88</a> <p class=
-        "short-contacts__address">Привет г. Санкт-Петербург, Приморское ш.600</p>
+      <div class="page-header container">
+       <div class="row">
+        <a class="site-logo col-xs-2" href="/"><img alt="" src="../../img/Logo.png"></a>
+        <nav class="main-nav col-xs-5">
+          <div class="main-nav__menu-toogler"></div>
+          <ul class="main-nav__list list-inline">
+            <li class="main-nav__item main-nav__item--active inline-item">
+              <a class="main-nav__link" href="">НОМЕРА</a>
+            </li>
+            <li class="main-nav__item inline-item">
+              <a class="main-nav__link" href="">КОТТЕДЖ</a>
+            </li>
+            <li class="main-nav__item inline-item">
+              <a class="main-nav__link" href="">РЕСТОРАН</a>
+            </li>
+            <li class="main-nav__item inline-item">
+              <a class="main-nav__link" href="">ОТДЫХ</a>
+            </li>
+            <li class="main-nav__item inline-item">
+              <a class="main-nav__link" href="">КОНТАКТЫ</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="short-contacts col-xs-3">
+          <a class="short-contacts__phone" href="">+7 812 777-55-88</a> <br> <span class=
+          "short-contacts__address">г. Санкт-Петербург, Приморское ш.600</span>
+        </div>
+        <div class="page-header__btn col-xs-2">
+          <a class="btn btn--icon-calendar" href="">ЗАБРОНИРОВАТЬ</a>
+        </div>
       </div>
-      <div class="page-header__btn col-xs-2">
-        <a class="btn btn--icon-calendar" href="">ЗАБРОНИРОВАТЬ</a>
-      </div>
-    </div>
-   </div>
-  </header>
+     </div>
+    </header>
   <main>
     <section class="single-room-item">
-      <h1>Эконом</h1>
-      <b>от<span class="single-room-item__price">3400</span>РУБ./СУТКИ</b>
-      <div class="single-room-item__about">
-        <h3>О номере</h3>
-        <p>В отеле 30 таких номеров площадью от 16 до 20 кв.м. Рассчитаны на проживание 1-2 человек. Часть номеров с видом на Финский залив.</p>
-        <h3>Удобства</h3>
-        <ul class="single-room-item__list-left">
-          <li>WI-FI</li>
-          <li>Двуспальная кровать</li>
-          <li>Кресло</li>
-          <li>Раскладывающийся диван</li>
-          <li>Фен</li>
-        </ul>
-        <ul class="single-room-item__list-right">
-          <li>Рабочий стол</li>
-          <li>Шкаф для одежды</li>
-          <li>Багажная тумба</li>
-          <li>Сейф</li>
-        </ul>
-        <h3>В стоимость входит</h3>
-        <ul class="single-room-item__list">
-          <li>Бассейн с 8.30 до 10.00</li>
-          <li>Завтрак и обед "шведский стол"</li>
-        </ul>
-      </div>
-      <div class="single-room-item__photo">
-        <!--Место для слайдера-->
-      </div>
-      <div class="single-room-item__confirm">
-        <a href="" class="btn btn--icon-calendar">ЗАБРОНИРОВАТЬ</a>
-        <b>от<span class="single-room-item__price">3400</span>РУБ./СУТКИ</b>
-      </div>
-    </section>
+          <h1>Эконом</h1>
+          <b>от<span class="single-room-item__price">3400</span>РУБ./СУТКИ</b>
+          <div class="single-room-item__about">
+            <h3>О номере</h3>
+            <p>В отеле 30 таких номеров площадью от 16 до 20 кв.м. Рассчитаны на проживание 1-2 человек. Часть номеров с видом на Финский залив.</p>
+            <h3>Удобства</h3>
+            <ul class="single-room-item__list-left">
+              <li>WI-FI</li>
+              <li>Двуспальная кровать</li>
+              <li>Кресло</li>
+              <li>Раскладывающийся диван</li>
+              <li>Фен</li>
+            </ul>
+            <ul class="single-room-item__list-right">
+              <li>Рабочий стол</li>
+              <li>Шкаф для одежды</li>
+              <li>Багажная тумба</li>
+              <li>Сейф</li>
+            </ul>
+            <h3>В стоимость входит</h3>
+            <ul class="single-room-item__list">
+              <li>Бассейн с 8.30 до 10.00</li>
+              <li>Завтрак и обед "шведский стол"</li>
+            </ul>
+          </div>
+          <div class="single-room-item__photo">
+            <!--Место для слайдера-->
+          </div>
+          <div class="single-room-item__confirm">
+            <a href="" class="btn btn--icon-calendar">ЗАБРОНИРОВАТЬ</a>
+            <b>от<span class="single-room-item__price">3400</span>РУБ./СУТКИ</b>
+          </div>
+        </section>
     <div class="single-room-options">
-      <div class="single-room-options-item standart-room">
-        <div class="single-room-options-item__inner">
-          <h3>Стандарт</h3>
-          <b>от<span class="single-room-item__price">4000</span>РУБ./СУТКИ</b>
+          <div class="single-room-options-item standart-room">
+            <div class="single-room-options-item__inner">
+              <h3>Стандарт</h3>
+              <b>от<span class="single-room-item__price">4000</span>РУБ./СУТКИ</b>
+            </div>
+          </div>
+          <div class="single-room-options-item standart-plus-room">
+            <div class="single-room-options-item__inner">
+              <h3>Стандарт+</h3>
+              <b>от<span class="single-room-item__price">4500</span>РУБ./СУТКИ</b>
+            </div>
+          </div>
+          <div class="single-room-options-item lux-room">
+            <div class="single-room-options-item__inner">
+              <h3>Люкс</h3>
+              <b>от<span class="single-room-item__price">5700</span>РУБ./СУТКИ</b>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="single-room-options-item standart-plus-room">
-        <div class="single-room-options-item__inner">
-          <h3>Стандарт+</h3>
-          <b>от<span class="single-room-item__price">4500</span>РУБ./СУТКИ</b>
-        </div>
-      </div>
-      <div class="single-room-options-item lux-room">
-        <div class="single-room-options-item__inner">
-          <h3>Люкс</h3>
-          <b>от<span class="single-room-item__price">5700</span>РУБ./СУТКИ</b>
-        </div>
-      </div>
-    </div>
   </main>
   <footer class="page-footer">
   <div class="container">
@@ -115,5 +122,9 @@
     </div>
   </div>
   </footer>
+ <script src="../js/jquery.min.js"></script>
+ <script src="../js/script.min.js"></script>
+
+
 </body>
 </html>
