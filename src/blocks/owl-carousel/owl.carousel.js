@@ -2700,7 +2700,7 @@
 	Navigation.Defaults = {
 		nav: false,
 		navRewind: true,
-		navText: [ 'prev', 'next' ],
+		navText: [ '<', '>' ],
 		navSpeed: false,
 		navElement: 'div',
 		navContainer: false,
@@ -3084,4 +3084,21 @@ $('.owl-carousel').owlCarousel({
     //         items:5
     //     }
     // }
+})
+$('.owl-carousel-2').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:2
+        }
+    }
 })
