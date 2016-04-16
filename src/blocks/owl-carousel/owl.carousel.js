@@ -3086,16 +3086,17 @@ $('.owl-carousel').owlCarousel({
     // }
 })
 $('.owl-carousel-2').owlCarousel({
-    loop:true,
-    margin:10,
+    // loop:true,
+    // margin:10,
     nav:true,
+    items: 2,
     
     responsive:{
         0:{
             items:1
         },
         600:{
-            items:2
+            items:1
         },
         1000:{
             items:2

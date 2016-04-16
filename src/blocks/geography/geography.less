@@ -1,0 +1,51 @@
+.geography{
+	&-map{
+		&__title{
+			text-align: center;
+			font-size: 30px;
+			margin-top: 70px;
+			margin-bottom: 35px;
+			font-weight: bold;
+		}
+	}
+	&-transport{
+&__bus-list{
+		list-style-type: none;
+	}
+	&__bus{
+		
+		
+		margin-left: 40%;
+
+	}
+	&__bus-block{
+		margin-top: 60px;
+		position: relative;	
+	}
+	&__bus:after{
+		content: ' ';
+		background-image: url(../../img/Bus.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		width: 50px;
+		height: 30px;	
+		top: -25%;
+		left: 45%;
+	}
+	&__trail{
+		margin-left: 25%;
+	}
+	&__trail:after{
+		content: ' ';
+		background-image: url(../../img/Electro.png);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		position: absolute;
+		width: 60px;
+		height: 30px;	
+		top: -45%;
+		left: 33%;
+	}
+	}
+}
