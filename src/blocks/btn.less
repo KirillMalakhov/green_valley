@@ -1,0 +1,61 @@
+.btn {
+	display: inline-block;
+	line-height: 37px;;
+	background-color: #ff7435;
+	text-align: center;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 14px;;
+	border-radius: 20px;;
+	padding: 0 28px;
+	border: 0;
+	&:hover {
+		background-color: #e85715;
+		text-decoration: none;
+		color: #ffffff;
+	}
+	&--calendar-icon:before {
+		content: "";
+		display: inline-block;
+		width: 15px;
+		height: 16px;
+		background: url(../img/icon-calendar.png);
+		margin-right: 9px;
+		position: relative;
+		top: 2px;
+		padding-top: 3px;
+		
+		line-height: 37px; 
+	}
+	&--bordered {
+		background-color: transparent;
+		border: 2px solid #ffffff;
+		&:hover {
+			background-color: transparent;
+			
+		}
+	}
+	&--more {
+		border: 0;
+		background-color: transparent;
+		color:  #191919;
+		line-height: normal;
+		padding: 0;
+		border-bottom: 1px dashed;
+		border-radius: 0;
+		padding-top: 0;
+		&:hover {
+			background-color: transparent;
+			color: #D3D3D3;
+		}
+	}
+	&--green {
+		background-color: #0ab89d;
+		&:hover {
+			background-color: #009F84;
+		}
+	}
+	&--square {
+		border-radius: 0;
+	}
+}

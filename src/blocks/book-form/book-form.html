@@ -1,0 +1,138 @@
+<form action="#" class="book-form">
+    <section class="book-step">
+      <span class="book-step__step-count">Шаг 1</span>
+      <h2 class="book-step__title">Дата отдыха</h2>
+      <div class="book-form__date-inner  book-form__date-inner--narrow  book-form__date-inner--bordered container">
+        <div class="row">
+          <div class="book-form__date col-xs-12 col-sm-6">
+            <label>
+              <span for="entry-day">Дата въезда</span>
+              <div class="book-form__date-wrapper">
+                <input type="number" placeholder="дд" min="0" max="31" name="entry-day" id="entry-day">
+                <input type="number" placeholder="мм" min="0" max="12" name="entry-month">
+                <input type="number" placeholder="гггг" min="0" max="2020" name="entry-year">
+              </div>
+            </label>
+          </div>
+          <div class="book-form__date col-xs-12 col-sm-6">
+            <label>
+              <span for="exit-day">Дата выезда</span>
+              <div class="book-form__date-wrapper">
+                <input type="number" placeholder="дд" min="0" max="31" name="exit-day" id="exit-day">
+                <input type="number" placeholder="мм" min="0" max="12" name="exit-month">
+                <input type="number" placeholder="гггг" min="0" max="2020" name="exit-year">
+              </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="book-step">
+      <span class="book-step__step-count">Шаг 2</span>
+      <h2 class="book-step__title">Место проживания</h2>
+      <div class="book-form__location-inner  book-form__location-inner--narrow  book-form__location-inner--bordered container">
+        <div class="row">
+          <div class="book-form__location col-xs-6">
+            <input type="radio" name="location" value="Отель" id="book-form__location-hotel">
+            <label for="book-form__location-hotel" class="book-form__location-hotel">
+              <h3 class="book-form__location-title">Отель</h3>
+              <i class="book-form__location book-form__location-hotel--icon"></i>
+            </label>
+          </div>
+          <div class="book-form__location col-xs-6">
+            <input type="radio" name="location" value="Коттедж" id="book-form__location-cottage" checked>
+            <label for="book-form__location-cottage" class="book-form__location-cottage">
+              <h3 class="book-form__location-title">Коттедж</h3>
+              <i class="book-form__location book-form__location-cottage--icon"></i>
+            </label>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="book-step">
+      <span class="book-step__step-count">Шаг 3</span>
+      <h2 class="book-step__title">Тип коттеджа</h2>
+      <div class="book-form__location-type-inner  book-form__location-type-inner--bordered  container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="book-form__location-type-list">
+              <input type="radio" value="Флагман" name="cottage-type" id="location-type-flagman" checked>
+                <label for="location-type-flagman">Флагман</label>
+              <input type="radio" value="Озёрный" name="cottage-type" id="location-type-ozerniy">
+                <label for="location-type-ozerniy">Озёрный</label>
+              <input type="radio" value="Ольховка" name="cottage-type" id="location-type-olhovka">
+                <label for="location-type-olhovka">Ольховка</label>
+              <input type="radio" value="Портовый" name="cottage-type" id="location-type-portoviy">
+                <label for="location-type-portoviy">Портовый</label>
+            </div>
+          </div>
+          <div class="col-xs-12 hidden-xs">
+            <div class="book-form__location-features">
+              <ul class="book-form__location-features-list  book-form__location-features-list--active">
+                <li class="book-form__location-features-item  book-form__location-features-item--icon-area">Площадь<br>100м2</li>
+                <li class="book-form__location-features-item  book-form__location-features-item--icon-room">3 комнаты</li>
+                <li class="book-form__location-features-item  book-form__location-features-item--icon-bed">5 спальных<br>мест</li>
+                <li class="book-form__location-features-item  book-form__location-features-item--icon-bath">Раздельный<br>санузел</li>
+                <li class="book-form__location-features-item  book-form__location-features-item--icon-wifi">WI-FI</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="book-step">
+      <span class="book-step__step-count">Шаг 4</span>
+      <h2 class="book-step__title">Персональная информация</h2>
+      <div class="book-form__personal-information-inner container">
+        <div class="row">
+          <div class="book-form__personal-information  book-form__personal-information--valid  col-xs-12 col-sm-6"><input type="text" name="name" placeholder="Имя" value="Владимир"></div>
+          <div class="book-form__personal-information col-xs-12 col-sm-6"><input type="text" name="lastname" placeholder="Фамилия"></div>
+          <div class="book-form__personal-information col-xs-12 col-sm-6"><input type="tel" name="tel" placeholder="Номер телефона"><p>Мы свяжемся с вами в случае необходимости.</p></div>
+          <div class="book-form__personal-information col-xs-12 col-sm-6"><input type="email" name="email" placeholder="E-mail"><p>На этот адрес мы вышлем вам подтверждение о забронированном номере.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="book-step">
+      <span class="book-step__step-count">Шаг 5</span>
+      <h2 class="book-step__title">Способ оплаты</h2>
+      <div class="book-form__payment-result-inner container">
+        <div class="row">
+          <div class="book-form__payment-method">
+            <div class="book-form__payment-method-item-wrapper col-xs-12 col-sm-8">
+              <div class="book-form__payment-method-item">
+                <input id="payment-method-inplace" type="radio" name="payment-method" value="По приезду">
+                <label for="payment-method-inplace" class="book-form__payment-method-label">
+                  <strong>По приезду</strong>
+                  <p class="hidden-xs">Вы можете произвести оплату по факту заселения.</p>
+                </label>
+              </div>
+              <div class="book-form__payment-method-item">
+                <input id="payment-method-now" type="radio" name="payment-method" value="Сейчас" checked>
+                <label for="payment-method-now" class="book-form__payment-method-label">
+                  <strong>Сейчас</strong>
+                  <p class="hidden-xs">Прямо сейчас вы можете произвести оплату с помощью банковской карты.</p>
+                </label>
+                <div class="book-form__payment-method-input-inner col-xs-12 col-sm-8"><label>Номер карты<input type="number" name="card-number" placeholder="0000-0000-0000-0000"></label></div>
+                <div class="book-form__payment-method-input-inner col-xs-12 col-sm-4"><label>Код CvV<a href="javascript:void(0);" class="tooltip hidden-xs hidden-sm"><span class="tooltip__text">Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</span></a><input type="number" name="card-cvv" maxlength="3" placeholder="123"></label></div>
+                <div class="book-form__payment-method-input-inner col-xs-12 col-sm-8"><label>Фамилия владельца карты<input type="text" name="card-name" placeholder="Vladimir Vladimirov"></label></div>
+                <div class="book-form__payment-method-input-inner col-xs-12 col-sm-4"><label>Действует до<input type="text" name="card-date" placeholder="01 / 2018"></label></div>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+            <div class="book-form__payment-result col-xs-12 col-sm-4">
+              <h3>К оплате</h3>
+              <strong class="book-form__payment-result-separator">-</strong>
+              <p class="book-form__payment-result-notification book-form__payment-result-notification--active">Пожалуйста, <b>выберите дату</b> въезда и выезда, чтобы увидеть сумму к оплате</p>
+            </div>
+          </div>
+          <div class="col-xs-12">
+            <button class="btn btn--green btn--square">Забронировать</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </form>
