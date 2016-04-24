@@ -1,6 +1,4 @@
-build/*
-!build/readme.md
-src/blocks/sprite-svg--localstorage/img/*.svg
+
 
 .Saved/
 _arc/
