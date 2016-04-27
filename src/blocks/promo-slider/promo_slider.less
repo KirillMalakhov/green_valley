@@ -4,25 +4,28 @@
 	width: 100%;
 
 	&__item{
-		background-image: url(../img/banner-main.png);
+		background-image: url(../img/mobile-promo-slider.png);
 		width: 100%;
-		height: 428px;
+		height: 320px;
+		padding-top: 20px;
 	}
 
 	&__inner{
-		width: 40%;
-		margin-left: 110px;
-		padding-top: 100px;
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+		background-color: #fff;
 	}
-	&__text{
-		padding-top: 20px;
-	}
+	
 }
 .promo-span-title{
-	font-size: 36px;
+	font-size: 18px;
+	
+
 }
 .promo-span{
-	font-size: 18px;
+	font-size: 16px;
+	
 }
 
 .tabs{
@@ -42,12 +45,15 @@
   color: #000;
   text-decoration: none;
   padding: 5px;
+  font-size: 14px;
 }
 .tabs-link a:hover, .tabs-link.active a {
   color: #ff7435;
   border-bottom: 2px solid #ff7435;
 }
-
+.hidden-word{
+	display: none;
+}
 .tab-item {
   display: none;
   background-image: url(../img/health.png);
@@ -61,6 +67,49 @@
 }
 
 .health__item-1{
+
+}
+.health__item-2{
+	
+}
+.health__item-3{
+	
+}
+.health__item-4{
+	
+}
+.health__item-5{
+	
+}
+.health__item-6{
+	
+}
+.promo-slider{
+	width: 100%;
+}
+@media (min-width: @screen-lg){
+     .img-slider{
+     	&__item{
+     		height: 428px;
+     		background-image: url(../img/banner-main.png);
+     	}
+     	&__inner{
+		width: 40%;
+		margin-left: 110px;
+		padding-top: 100px;
+		background-color: transparent;
+		}
+		&__text{
+		padding-top: 20px;
+		}
+     }
+     .promo-span-title{
+	font-size: 36px;	
+	}
+	.promo-span{
+	font-size: 18px;
+	}
+	.health__item-1{
 	background-image: url(../img/swimming.png);
 	background-size: 100% 100%;
 	width: 80px;
@@ -114,6 +163,97 @@
 	margin: 30px;
 	margin-top: 0px;
 }
-.promo-slider{
-	width: 100%;
+.hidden-word{
+	display: inline-block;
 }
+
+   }
+
+
+
+   @media (min-width: @screen-sm){
+     .img-slider{
+     	&__item{
+     		height: 428px;
+     		background-image: url(../img/banner-main.png);
+     	}
+     	&__inner{
+		width: 70%;
+		margin-left: 20px;
+		padding-top: 20px;
+		background-color: transparent;
+		text-align: left;
+		}
+		&__text{
+		padding-top: 20px;
+		}
+     }
+     .promo-span-title{
+	font-size: 36px;
+	background-color: #fff;	
+	padding-top: 10px;	
+	}
+	.promo-span{
+	font-size: 18px;
+	background-color: #fff;
+	padding-top: 6px;
+	}
+	.health__item-1{
+	background-image: url(../img/swimming.png);
+	background-size: 100% 100%;
+	width: 80px;
+	height: 105px;
+	background-repeat: no-repeat;
+	margin: 30px;
+	margin-top: 0px;
+}
+.health__item-2{
+	background-image: url(../img/football.png);
+	background-size: 100% 100%;
+	width: 80px;
+	height: 105px;
+	background-repeat: no-repeat;
+	margin: 30px;
+	margin-top: 0px;
+}
+.health__item-3{
+	background-image: url(../img/pool.png);
+	background-size: 100% 100%;
+	width: 80px;
+	height: 105px;
+	background-repeat: no-repeat;
+	margin: 30px;
+	margin-top: 0px;
+}
+.health__item-4{
+	background-image: url(../img/spa.png);
+	background-size: 100% 100%;
+	width: 80px;
+	height: 105px;
+	background-repeat: no-repeat;
+	margin: 30px;
+	margin-top: 0px;
+}
+.health__item-5{
+	background-image: url(../img/bath.png);
+	background-size: 100% 100%;
+	width: 80px;
+	height: 105px;
+	background-repeat: no-repeat;
+	margin: 30px;
+	margin-top: 0px;
+}
+.health__item-6{
+	background-image: url(../img/animation.png);
+	background-size: 100% 100%;
+	width: 80px;
+	height: 105px;
+	background-repeat: no-repeat;
+	margin: 30px;
+	margin-top: 0px;
+}
+.hidden-word{
+	display: inline-block;
+}
+
+   }

@@ -2,7 +2,7 @@
 .feedbacks{
 	background-image: url(../img/feedbacks_bg.png);
 	background-size: 100% 100%;
-	min-height: 545px;
+	min-height: 500px;
 	overflow: visible !important;
 	position: relative;
 	
@@ -10,18 +10,17 @@
 		color: #ffffff;
 		font-size: 30px;
 		margin-top: 50px;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 	}
 	&-item{
 		
-	min-height: 300px;
-	width: 480px;
-	margin-left: 50px;
+	width: 100%;
 	overflow: visible !important;
 	position: relative;
+	margin-bottom: 20px;
 	
     &__img{
-    	margin-left: 42%;
+    	margin-left: 38%;
     	margin-top: -40px;
     	overflow: hidden;	
     	height: 80px;
@@ -65,4 +64,51 @@
 		padding: 10px;
 	}
 }
-// 
+@media (min-width: @screen-lg){
+	.feedbacks{
+		min-height: 545px;
+
+		&-item{
+			min-height: 300px;
+			width: 80%;
+			margin-left: 50px;
+			margin-bottom: 20px;
+		}
+		&__btn{
+			color: #ffffff;
+		text-decoration: none;
+		border: 1px solid #ffffff;
+		border-radius: 25px;
+		padding: 10px;
+		
+		}
+		&__name{
+		padding-top: 50px;
+	}
+	&__title{
+		color: #ffffff;
+		font-size: 30px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	&__img{
+    	margin-left: 42%;
+    	margin-top: -40px;
+    	overflow: hidden;	
+    	height: 80px;
+    	width: 80px;
+    	z-index: 9;
+    	position: absolute;
+    	top: 0;
+	}
+}
+}
+@media (min-width: @screen-md){
+		&-item{
+			display: block;
+			min-height: 300px;
+			width: 100%;
+			margin-left: 50px;
+			margin-bottom: 20px;
+		}
+	}

@@ -4,8 +4,48 @@
 		font-size: 30px;
 		text-align: center;
 		padding-bottom: 30px;
+
 	}
 	&-item{
+		background-image: url(../img/offersandactions-320.png);
+		background-size: 100% 100%;
+		min-height: 300px;
+		position: relative;
+		text-align: left;
+		&__inner{
+			background-color: #ffffff;
+			opacity: 0.9;
+			width: 90%;
+			position: absolute;
+			bottom: 20px;
+			padding-left: 10px;
+		}
+		&__title{
+			color: #ff7435;
+		}
+	}
+
+}
+@media (min-width: @screen-lg){
+	.special-offer{
+&-item{
+		background-image: url(../img/offersandactions.png);
+		background-size: 100% 100%;
+		min-height: 340px;
+		position: relative;
+		&__inner{
+			background-color: #ffffff;
+			opacity: 0.9;
+			width: 30%;
+			position: absolute;
+			bottom: 10px;
+		}
+	} 
+	}
+}
+	@media (min-width: @screen-md){
+		.special-offer{
+		&-item{
 		background-image: url(../img/offersandactions.png);
 		background-size: 100% 100%;
 		min-height: 340px;
@@ -18,4 +58,5 @@
 			bottom: 10px;
 		}
 	}
-}
+	}
+	}

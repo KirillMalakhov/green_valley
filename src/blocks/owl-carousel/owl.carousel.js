@@ -3088,7 +3088,7 @@ $('.owl-carousel').owlCarousel({
 $('.owl-carousel-2').owlCarousel({
     // loop:true,
     // margin:10,
-    nav:true,
+    // nav:false,
     items: 2,
     
     responsive:{
@@ -3096,7 +3096,7 @@ $('.owl-carousel-2').owlCarousel({
             items:1
         },
         600:{
-            items:1
+            items:2
         },
         1000:{
             items:2
@@ -3106,7 +3106,7 @@ $('.owl-carousel-2').owlCarousel({
 $('.owl-carousel-3').owlCarousel({
     loop:true,
     margin:10,
-    nav:true,
+    // nav:false,
     responsive:{
         0:{
             items:1

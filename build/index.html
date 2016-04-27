@@ -16,15 +16,21 @@
   <header class="page-header">
       <div class="page-header container">
        <div class="row">
-        <a class="site-logo col-xs-2" href="/"><img alt="" src="img/Logo.png"></a>
-        <nav class="main-nav col-xs-5">
-          <div class="main-nav__menu-toogler"></div>
+        <a class="site-logo col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-4 col-lg-offset-0 col-lg-2" href="/"><img alt="" src="img/Logo.png"></a>
+        <div class="main-nav__menu-toogler">
+            <a href="" class="menu-toggler">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+        <nav class="main-nav col-xs-1 col-lg-5">
           <ul class="main-nav__list list-inline">
             <li class="main-nav__item main-nav__item--active inline-item">
-              <a class="main-nav__link" href="../../room-list.html">НОМЕРА</a>
+              <a class="main-nav__link" href="room-list.html">НОМЕРА</a>
             </li>
             <li class="main-nav__item inline-item">
-              <a class="main-nav__link" href="../../single_room.html">КОТТЕДЖ</a>
+              <a class="main-nav__link" href="single_room.html">КОТТЕДЖ</a>
             </li>
             <li class="main-nav__item inline-item">
               <a class="main-nav__link" href="">РЕСТОРАН</a>
@@ -80,21 +86,21 @@
          <div class="container">
         <div class="row">
     <ul class="tabs-list">
-      <li class="tabs-link  active"><a href="#tab_01">СЕМЕЙНЫЙ ОТДЫХ</a></li>
-      <li class="tabs-link"><a href="#tab_02">КОРПОРАТИВНЫЙ ОТДЫХ</a></li>
+      <li class="tabs-link  active col-xs-6 col-lg-2 col-lg-offset-4 col-sm-3 col-sm-offset-3"><a href="#tab_01">СЕМЕЙНЫЙ ОТДЫХ</a></li>
+      <li class="tabs-link col-xs-6 col-lg-2 col-sm-3"><a href="#tab_02">КОРПОРАТИВНЫЙ <span class="hidden-word">ОТДЫХ</span></a></li>
     </ul>
     <div class="tabs-content">
     <div class="row">
       <div class="tab-item  active col-xs-9 col-xs-offset-1" id="tab_01">
     
         <h1 class="promo-slider__title">Здоровый отдых</h1>
-          <p class="promo-slider__descr">Плавайте в бассейне, играйте в волейбол, футбол и другие игры. Устройте семейный пикник с шашлыками или снимите напряжение в бане или спа. Почувствуйте отдых!</p>
+          <p class="promo-slider__descr"><b>Плавайте в бассейне, играйте в волейбол, футбол и другие игры. Устройте семейный пикник с шашлыками или снимите напряжение в бане или спа. Почувствуйте отдых!</b></p>
           <div class="health">
             <ul class="list-inline">
-              <li class="health__item-1"></li>
-              <li class="health__item-2"></li>
-              <li class="health__item-3"></li>
-              <li class="health__item-4"></li>
+              <li class="health__item-1 col-sm-3"></li>
+              <li class="health__item-2 col-sm-3"></li>
+              <li class="health__item-3 col-sm-3"></li>
+              <li class="health__item-4 col-sm-3"></li>
               <li class="health__item-5"></li>
               <li class="health__item-6"></li>
             </ul>
@@ -260,7 +266,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d593.7677375173874!2d30.293896588471167!3d59.962194159336185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sru!4v1460743173363" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       <div class="geography-transport">
-        <div class="geography-transport__item col-xs-4 col-xs-offset-2">
+        <div class="geography-transport__item col-xs-12 col-lg-4 col-lg-offset-2">
           <div class="geography-transport__bus-block">
           <b class="geography-transport__bus">АВТОБУСЫ</b>
           <ul class="geography-transport__bus-list">
@@ -271,7 +277,7 @@
           </ul>
         </div>
         </div>
-        <div class="geography-transport__item col-xs-4">
+        <div class="geography-transport__item col-xs-12 col-lg-4">
         <div class="geography-transport__bus-block">
         <b class="geography-transport__trail">ЭЛЕКТРОПОЕЗД</b>
           <p>Электропоезд Выборгского направления от Финляндского вокзала Санкт-Петербурга до платформы "Репино"</p>
@@ -285,19 +291,19 @@
      <div class="container">
        <div class="row">   
        <span class="offer-choice__main-title col-xs-12">Где вы хотите отдохнуть?</span>
-       <div class="offer-choice__item col-xs-4 col-xs-offset-2">
+       <div class="offer-choice__item col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-2 col-sm-5 col-sm-offset-0">
          <a href="" class="offer-choice__item-link">
          <img src="img/choice_first.png" alt="" class="offer-choice__item-img">
            <p class="offer-choice__title">В отеле</p>
            ОТ <span class="offer-choice__price">4000</span> РУБ./СУТКИ
          </a>
        </div>
-       <div class="offer-choice__item col-xs-4 col-xs-offset-1">
+       <div class="offer-choice__item col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-1 col-sm-5 col-sm-offset-0">
          <a href="" class="offer-choice__item-link">
           <img src="img/choice_second.png" alt="" class="offer-choice__item-img">
            <p class="offer-choice__title">В коттедже</p>
            ОТ <span class="offer-choice__price">6800</span> РУБ./СУТКИ
-         </a>
+         </a> 
        </div>
      </div>
     </div>
@@ -306,10 +312,10 @@
   <footer class="page-footer">
   <div class="container">
     <div class="row">
-    <div class="page-footer__adress col-xs-2">
+    <div class="page-footer__adress col-lg-2">
       <p>г. Санкт-Петербург Приморское ш.600</p>
     </div>
-    <div class="page-footer__links col-xs-4 col-xs-offset-2 text-center">
+    <div class="page-footer__links col-lg-4 col-lg-offset-2 text-center">
       <img src="img/Logo.png" alt="" class="site-logo"><br>
       <a href="" class="vk"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="25px" height="15px" viewBox="0 0 548.358 548.358" style="enable-background:new 0 0 548.358 548.358;" xml:space="preserve">
 <g>
@@ -335,7 +341,7 @@
 </svg>
 </a>
     </div>
-    <div class="page-footer__phone col-xs-2 col-xs-offset-2 text-right">
+    <div class="page-footer__phone col-lg-2 col-lg-offset-2 text-right">
       <span>+7 812 777-55-88</span>
       <span>info@greenvalley.ru </span>
     </div>

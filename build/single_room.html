@@ -16,15 +16,21 @@
   <header class="page-header">
       <div class="page-header container">
        <div class="row">
-        <a class="site-logo col-xs-2" href="/"><img alt="" src="img/Logo.png"></a>
-        <nav class="main-nav col-xs-5">
-          <div class="main-nav__menu-toogler"></div>
+        <a class="site-logo col-xs-5 col-xs-offset-1 col-sm-5 col-sm-offset-4 col-lg-offset-0 col-lg-2" href="/"><img alt="" src="img/Logo.png"></a>
+        <div class="main-nav__menu-toogler">
+            <a href="" class="menu-toggler">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+          </div>
+        <nav class="main-nav col-xs-1 col-lg-5">
           <ul class="main-nav__list list-inline">
             <li class="main-nav__item main-nav__item--active inline-item">
-              <a class="main-nav__link" href="../../room-list.html">НОМЕРА</a>
+              <a class="main-nav__link" href="room-list.html">НОМЕРА</a>
             </li>
             <li class="main-nav__item inline-item">
-              <a class="main-nav__link" href="../../single_room.html">КОТТЕДЖ</a>
+              <a class="main-nav__link" href="single_room.html">КОТТЕДЖ</a>
             </li>
             <li class="main-nav__item inline-item">
               <a class="main-nav__link" href="">РЕСТОРАН</a>
@@ -53,7 +59,13 @@
     <section class="single-room-item">
           <h1 class="text-center">Эконом</h1>
           <p class="text-center"><b>от<span class="single-room-item__price">3400</span>РУБ./СУТКИ</b></p>
-          <div class="single-room-item__about col-xs-6">
+          <div class="owl-mobile">
+          <div class="owl-carousel-3">
+        <div class="item"><img src="img/single-room1.png" alt=""></div>
+        <div class="item"><img src="img/single-room2.png" alt=""></div>
+        </div>
+    </div>
+          <div class="single-room-item__about col-lg-6 col-xs-12">
             <h3>О номере</h3>
             <p>В отеле 30 таких номеров площадью от 16 до 20 кв.м. Рассчитаны на проживание 1-2 человек. Часть номеров с видом на Финский залив.</p>
             <h3>Удобства</h3>
@@ -96,7 +108,7 @@
     <div class="single-room-options">
     <div class="container">
     <div class="row">
-          <div class="single-room-options-item standart-room col-xs-3 col-xs-offset-1">
+          <div class="single-room-options-item standart-room col-lg-3 col-lg-offset-1 col-xs-10 col-sm-5">
             <div class="single-room-options-item__inner">
             <a href="">
             <img src="img/single-room-standart.png" alt="" class="single-room-photo">
@@ -107,7 +119,7 @@
           </div>
           </a>
           <a href="">
-          <div class="single-room-options-item standart-plus-room col-xs-3 col-xs-offset-1">
+          <div class="single-room-options-item standart-plus-room col-lg-3 col-lg-offset-1">
             <div class="single-room-options-item__inner">
             <img src="img/single-room-standart+.png" alt="" class="single-room-photo">
               <h3>Стандарт+</h3>
@@ -117,7 +129,7 @@
           </div>
           </a>
           <a href="">
-          <div class="single-room-options-item lux-room col-xs-3 col-xs-offset-1">
+          <div class="single-room-options-item lux-room col-lg-3 col-lg-offset-1 col-xs-10 col-sm-5">
             <div class="single-room-options-item__inner">
             <img src="img/single-room-luxe.png" alt="" class="single-room-photo">
               <h3>Люкс</h3>
@@ -133,10 +145,10 @@
   <footer class="page-footer">
   <div class="container">
     <div class="row">
-    <div class="page-footer__adress col-xs-2">
+    <div class="page-footer__adress col-lg-2">
       <p>г. Санкт-Петербург Приморское ш.600</p>
     </div>
-    <div class="page-footer__links col-xs-4 col-xs-offset-2 text-center">
+    <div class="page-footer__links col-lg-4 col-lg-offset-2 text-center">
       <img src="img/Logo.png" alt="" class="site-logo"><br>
       <a href="" class="vk"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="25px" height="15px" viewBox="0 0 548.358 548.358" style="enable-background:new 0 0 548.358 548.358;" xml:space="preserve">
 <g>
@@ -162,7 +174,7 @@
 </svg>
 </a>
     </div>
-    <div class="page-footer__phone col-xs-2 col-xs-offset-2 text-right">
+    <div class="page-footer__phone col-lg-2 col-lg-offset-2 text-right">
       <span>+7 812 777-55-88</span>
       <span>info@greenvalley.ru </span>
     </div>
